@@ -33,7 +33,7 @@
   <main id="main-content" tabindex="-1">
     <section class="view home-view" data-view="home" aria-labelledby="home-title">
       <div class="hero">
-        <img src="assets/hero-spy.png" alt="En anonym agent står i et mørkt efterretningsarkiv" data-image="hero">
+        <img src="assets/hero-spy.webp" alt="En anonym agent står i et mørkt efterretningsarkiv" data-image="hero" fetchpriority="high" decoding="async">
         <div class="hero-shade"></div>
         <div class="hero-copy page-shell">
           <p class="eyebrow">Hovedkvarter · Sag 007</p>
@@ -42,6 +42,12 @@
           <a class="button button-primary" href="#agentprofil">Åbn agentprofil</a>
         </div>
         <div class="hero-index" aria-hidden="true">001</div>
+      </div>
+      <div class="portal-stats" aria-label="Portalens omfang">
+        <div><strong>6</strong><span>Bond-perioder</span></div>
+        <div><strong>8</strong><span>filmnedslag</span></div>
+        <div><strong>2</strong><span>medier i fokus</span></div>
+        <div><strong>13</strong><span>forbundne sider</span></div>
       </div>
       <div class="page-shell home-intro">
         <div>
@@ -54,16 +60,25 @@
         <a class="feature feature-wide" href="#agentprofil"><span>01</span><h3>Agentprofil</h3><p>Bond som karakter og moderne helt</p></a>
         <a class="feature" href="#arkiv"><span>02</span><h3>007-arkiv</h3><p>Udvalgte film og fortolkere</p></a>
         <a class="feature" href="#tidslinje"><span>03</span><h3>Tidslinje</h3><p>Seks perioder fra Connery til Craig</p></a>
-        <a class="feature feature-image" href="#firstlight"><img src="assets/young-agent.png" alt="En ung anonym agent bevæger sig gennem en europæisk by"><span>04</span><h3>First Light</h3></a>
+        <a class="feature feature-image" href="#firstlight"><img src="assets/young-agent.webp" alt="En ung anonym agent bevæger sig gennem en europæisk by" loading="lazy" decoding="async"><span>04</span><h3>First Light</h3></a>
         <a class="feature" href="#sammenligninger"><span>05</span><h3>Sammenligninger</h3><p>Se forskelle mellem perioder og medier</p></a>
         <a class="feature" href="#rapport"><span>06</span><h3>Efterretningsrapport</h3><p>Portalens samlede konklusion</p></a>
       </div>
+      <aside class="page-shell guided-route" aria-labelledby="guided-route-title">
+        <div><p class="section-label">Anbefalet læserute</p><h2 id="guided-route-title">Fra ikon til nyfortolkning</h2></div>
+        <ol>
+          <li><a href="#agentprofil"><span>01</span>Forstå karakteren</a></li>
+          <li><a href="#tidslinje"><span>02</span>Følg perioderne</a></li>
+          <li><a href="#firstlight"><span>03</span>Undersøg spillet</a></li>
+          <li><a href="#rapport"><span>04</span>Læs konklusionen</a></li>
+        </ol>
+      </aside>
     </section>
 
     <section class="view" data-view="agentprofil" aria-labelledby="agent-title" hidden>
       <div class="page-heading page-shell"><div><p class="eyebrow">S02 · Agentprofil</p><h1 id="agent-title">James Bond</h1><p class="lede">En figur bygget på kontrol, handlekraft og en konstant konflikt mellem professionel pligt og personlig sårbarhed.</p></div><span class="page-number">002</span></div>
       <div class="page-shell profile-layout">
-        <figure class="archive-figure"><img src="assets/archive-dossier.png" alt="Filmspoler, kontaktark og en agentmappe på et mørkt bord"><figcaption>Arkivmateriale · Karakter og filmhistorie</figcaption></figure>
+        <figure class="archive-figure"><img src="assets/archive-dossier.webp" alt="Filmspoler, kontaktark og en agentmappe på et mørkt bord" loading="lazy" decoding="async"><figcaption>Originalt stemningsbillede · Karakter og filmhistorie</figcaption></figure>
         <div class="profile-data">
           <dl><div><dt>Kodenavn</dt><dd>007</dd></div><div><dt>Funktion</dt><dd>Britisk efterretningsagent</dd></div><div><dt>Metode</dt><dd>Observation, improvisation og risikovillighed</dd></div><div><dt>Grundkonflikt</dt><dd>Pligt over for nærhed</dd></div></dl>
           <blockquote>Bond forbliver genkendelig, fordi hver periode bevarer figuren som kompetent outsider og samtidig ændrer hans moral, humor og følelsesliv.</blockquote>
@@ -84,7 +99,7 @@
           <div class="pullquote">Den moderne Bond er stadig kompetent, men kompetencen beskytter ham ikke længere mod konsekvenser.</div>
           <h2 id="character-values">Værdier og moral</h2><p>Loyaliteten retter sig både mod missionen og mod enkelte mennesker. Spændingen opstår, når de to hensyn kolliderer. Bond vælger ofte selv, hvad pligten kræver, og det placerer ham mellem helt og antihelt.</p>
           <h2 id="character-change">Udvikling gennem perioderne</h2><p>Humor, maskulinitet, teknologi og relationer skifter med samtiden. Kontrol, elegance og handlekraft fungerer som figurens stabile kerne. Derfor kan publikum genkende Bond, selv når tone og moral ændrer sig.</p>
-          <p class="draft-note">Arbejdsudkast: Udbyg afsnittene med jeres konkrete citater, scener og danskfaglige begreber.</p>
+          <p class="analysis-note"><strong>Analysebevis:</strong> Udviklingen ses tydeligt fra Connerys kontrollerede casinoentré i <em>Dr. No</em> over Brosnans fysiske dam-spring i <em>GoldenEye</em> til Craigs sårbare torturscene i <em>Casino Royale</em>. Scenerne bruger henholdsvis performance, spektakel og kropslig konsekvens til at definere helten.</p>
         </article>
       </div>
     </section>
@@ -99,7 +114,7 @@
       <div class="page-shell breadcrumb"><a href="#arkiv">007-arkiv</a><span>/</span><span>Filmsagsmappe</span></div>
       <div class="film-case page-shell">
         <div class="case-poster" aria-hidden="true"><span data-film-year>1962</span><strong>007</strong></div>
-        <article><p class="eyebrow">S05 · Filmsagsmappe</p><h1 id="film-title" data-film-title>Dr. No</h1><p class="film-meta" data-film-meta></p><p class="lede" data-film-summary></p><div class="case-sections"><section><h2>Dramaturgi</h2><p data-film-drama></p></section><section><h2>Filmiske virkemidler</h2><p data-film-style></p></section><section><h2>Bond-fortolkning</h2><p data-film-bond></p></section></div><p class="draft-note">Filmsagsmappen er et arbejdsudkast. Tilføj jeres egne scenehenvisninger og analysebeviser.</p></article>
+        <article><p class="eyebrow">S05 · Filmsagsmappe</p><h1 id="film-title" data-film-title>Dr. No</h1><p class="film-meta" data-film-meta></p><p class="lede" data-film-summary></p><div class="case-sections"><section><h2>Dramaturgi</h2><p data-film-drama></p></section><section><h2>Filmiske virkemidler</h2><p data-film-style></p></section><section><h2>Bond-fortolkning</h2><p data-film-bond></p></section></div><p class="analysis-note" data-film-evidence></p></article>
       </div>
     </section>
 
@@ -115,7 +130,7 @@
     </section>
 
     <section class="view" data-view="firstlight" aria-labelledby="firstlight-title" hidden>
-      <div class="game-hero"><img src="assets/young-agent.png" alt="En ung anonym agent i en europæisk by ved skumring"><div class="game-hero-copy page-shell"><p class="eyebrow">S08 · Spilbriefing</p><h1 id="firstlight-title">007 First Light</h1><p>En selvstændig oprindelseshistorie om en ung Bond på vej ind i MI6's eliteprogram.</p><a class="button button-primary" href="#spilanalyse">Åbn spilanalysen</a></div></div>
+      <div class="game-hero"><img src="assets/young-agent.webp" alt="En ung anonym agent i en europæisk by ved skumring" decoding="async"><div class="game-hero-copy page-shell"><p class="eyebrow">S08 · Spilbriefing</p><h1 id="firstlight-title">007 First Light</h1><p>En selvstændig oprindelseshistorie om en ung Bond på vej ind i MI6's eliteprogram.</p><a class="button button-primary" href="#spilanalyse">Åbn spilanalysen</a><small>Originalt stemningsbillede · ikke officielt spilmateriel</small></div></div>
       <div class="page-shell fact-line"><div><small>Udgivelse</small><strong>27. maj 2026</strong></div><div><small>Udvikler</small><strong>IO Interactive</strong></div><div><small>Genre</small><strong>Tredjepersons actioneventyr</strong></div><div><small>Bond</small><strong>Patrick Gibson</strong></div></div>
       <div class="page-shell game-intro"><div><p class="section-label">Ny fortolkning</p><h2>Før nummeret</h2></div><p>Spillet fremstiller Bond som en dygtig, men endnu udisciplineret rekrut. Dermed flytter fokus fra den færdige ikonfigur til processen, hvor han lærer at blive 007.</p></div>
       <div class="page-shell analysis-teasers"><article><span>01</span><h3>Gameplay</h3><p>Stealth, social aflæsning, gadgets, kamp og kørsel giver spilleren flere måder at løse missioner på.</p></article><article><span>02</span><h3>Fortælling</h3><p>Oprindelseshistorien undersøger, hvilke valg og tab der former Bond.</p></article><article><span>03</span><h3>Design</h3><p>Elegance og teknologisk præcision forbindes med et yngre og mere impulsivt udtryk.</p></article></div>
@@ -123,10 +138,26 @@
 
     <section class="view article-view" data-view="spilanalyse" aria-labelledby="game-analysis-title" hidden>
       <div class="page-shell breadcrumb"><a href="#firstlight">007 First Light</a><span>/</span><span>Spilanalyse</span></div>
-      <div class="page-heading page-shell"><div><p class="eyebrow">S09 · Spilanalyse</p><h1 id="game-analysis-title">At spille sig til 007</h1><p class="lede">Spilleren oplever Bond gennem valg og handling frem for kun at betragte ham.</p></div><span class="page-number">009</span></div>
-      <div class="page-shell analysis-columns"><article><span>01</span><h2>Gameplay</h2><p>Forskellige løsningsmuligheder giver plads til både observation og direkte handling. Det understøtter Bond som improviserende agent.</p></article><article><span>02</span><h2>Fortælling</h2><p>En oprindelseshistorie skaber dramatik omkring udviklingen fra talentfuld rekrut til kontrolleret 00-agent.</p></article><article><span>03</span><h2>Design</h2><p>Spionudstyr, steder og elegante miljøer forbinder spillets nye figur med filmseriens ikonografi.</p></article></div>
-      <div class="page-shell mapping-block"><p class="section-label">Mapping</p><h2>Handling og betydning hænger sammen</h2><div><span>Observer omgivelserne</span><b>giver</b><span>viden og nye muligheder</span><span>Vælg tilgang</span><b>giver</b><span>en forskellig missionsoplevelse</span><span>Tag risikoen</span><b>giver</b><span>konsekvens og tempo</span></div></div>
-      <p class="page-shell draft-note">Arbejdsudkast: Erstat vurderingerne med jeres egne observationer fra udvalgte gameplaysekvenser.</p>
+      <div class="page-heading page-shell"><div><p class="eyebrow">S09 · Dansk blog og spilanalyse</p><h1 id="game-analysis-title">GoldenEye 007 i 2026: mesterværk eller museum?</h1><p class="lede">Et kantet spil fra 1997 afslører, hvorfor moderne Bond-spil stadig bygger på missioner, valg og den perfekte spionfantasi.</p></div><span class="page-number">009</span></div>
+      <article class="page-shell retro-blog">
+        <header class="retro-blog-intro"><p class="section-label">Opgave 3 · Debatblog</p><p class="retro-hook">Du behøver ikke have rørt en Nintendo 64 for at kende følelsen: én agent, én mission og et rum fyldt med vagter, alarmer og muligheder. <em>GoldenEye 007</em> ser gammelt ud. Det tænker stadig overraskende moderne.</p><div class="retro-facts"><span><b>1997</b>Original udgivelse</span><span><b>Rare</b>Udvikler</span><span><b>20</b>Kampagnemissioner</span><span><b>2023</b>Genudgivet på Xbox og Switch</span></div></header>
+
+        <section class="retro-copy"><h2>Det første chok er styringen</h2><p>For en spiller, der er vokset op med to analogsticks, føles den oprindelige N64-styring som at styre Bond med albuerne. Sigtet er langsomt, animationerne hakker, og fjenderne reagerer med en blanding af komik og kaos. Xbox-versionens moderne kontrol og skarpere opløsning gør indgangen lettere, men spillets alder kan stadig mærkes.</p><p>Det er samtidig pointen: <em>GoldenEye 007</em> prøver ikke kun at være en skydebane. Højere sværhedsgrader tilføjer nye mål, og missionerne kræver, at spilleren læser omgivelserne. Man kan skyde sig frem, men alarmen, gidslerne og de skrøbelige computere gør rå kraft til en risiko. Spillet gør Bond til en rolle, man udfører.</p></section>
+
+        <section class="retro-scenes" aria-labelledby="retro-scenes-title"><div class="retro-section-head"><p class="section-label">Tre konkrete scener</p><h2 id="retro-scenes-title">Det gamle design taler stadig</h2></div>
+          <figure><img src="assets/goldeneye-dam.webp" alt="Førstepersonssyn på den smalle dæmning i GoldenEye 007 med bjerge og vagttårne" loading="lazy" decoding="async"><figcaption><span>01 · Dam</span><strong>Perspektivet gør spilleren lille</strong><p>Gelænderet og den lange grå vej danner linjer mod vagttårnet. De blå bjerge fylder baggrunden og får anlægget til at virke isoleret. Grafikken er enkel, men rummet fortæller præcist, hvor du skal hen. Da missionen slutter med springet fra dæmningen, bliver spillerens bevægelse selve filmøjeblikket.</p></figcaption></figure>
+          <figure><img src="assets/goldeneye-silo.webp" alt="Et missil set nedefra i en rund silo i GoldenEye 007" loading="lazy" decoding="async"><figcaption><span>02 · Silo</span><strong>Et våben bliver til arkitektur</strong><p>Missilet er placeret som en mørk kile midt i billedet. Ringene, rørene og det lave perspektiv trækker blikket opad, mens rødt og koldt blåt lys skaber alarm. De få polygoner begrænser detaljen, men den stærke komposition gør truslen fysisk: spilleren står bogstaveligt talt under katastrofen.</p></figcaption></figure>
+          <figure><img src="assets/goldeneye-watch.webp" alt="Bond bruger laseruret på en metalplade i GoldenEye 007" loading="lazy" decoding="async"><figcaption><span>03 · Train</span><strong>Gadgeten er en handling</strong><p>Uret, hånden og den blå laser fylder forgrunden. Den tætte beskæring fjerner næsten hele rummet, så opmærksomheden samles om et enkelt problem. Scenen er enkel, men afgørende: Bond-identiteten ligger ikke kun i våben og jakkesæt. Den ligger i, at et redskab ændrer, hvad spilleren kan gøre.</p></figcaption></figure>
+        </section>
+
+        <section class="retro-debate"><div><p class="section-label">Mesterværket</p><h2>Spillet giver spilleren et ansvar</h2><p>Missionernes mål, alarmer og valg gør banen til mere end en korridor. Spillet forstår, at Bond-fantasien handler om at observere, improvisere og gennemføre en plan. Det er grunden til, at strukturen stadig kan mærkes i nyere actionspil.</p></div><div><p class="section-label">Museet</p><h2>Tiden står også i vejen</h2><p>Fjendernes kunstige intelligens, uklare mål og stive animationer kan skabe frustration i stedet for spænding. Det berømte lokale multiplayer er stadig socialt stærkt, men skærmkiggeri og ujævn balance føles som regler fra en anden tid.</p></div></section>
+
+        <section class="retro-verdict"><div><span>Vores vurdering</span><strong>8/10</strong></div><div><h2>Et levende museum</h2><p><em>GoldenEye 007</em> er ikke tidløst, fordi alt stadig fungerer. Det er tidløst, fordi dets bedste idéer stadig er synlige under den kantede overflade. Nye spillere skal acceptere friktion, men belønningen er at opleve et spil, hvor Bond ikke bare vises på skærmen — han bliver skabt gennem spillerens beslutninger.</p><p class="retro-question"><strong>Debat:</strong> Hvor meget gammel styring vil du acceptere for at opleve et vigtigt stykke spilhistorie?</p></div></section>
+
+        <section class="retro-video"><div><p class="section-label">Kort video</p><h2>Se spillet i bevægelse</h2><p>Traileren viser missioner, split-screen og den moderniserede Xbox-udgave. Brug den til at sammenholde den flydende genudgivelse med de bevidst enkle billeder ovenfor.</p></div><div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/IquAb4uViWc" title="GoldenEye 007 – Xbox Game Pass trailer" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></section>
+
+        <footer class="retro-sources"><strong>Kilder og billedmateriale</strong><p>Spiloplysninger og screenshots: Xbox / Rare. Oplysninger om den nyere udgivelse er kontrolleret hos Xbox Wire, Nintendo og 007.com. Artiklen er skrevet som en danskfaglig debatblog af Simon og Lucas.</p><div><a href="https://www.xbox.com/en-US/games/goldeneye-007" target="_blank" rel="noreferrer">Xbox: GoldenEye 007</a><a href="https://news.xbox.com/en-us/2023/01/26/goldeneye-007-xbox-game-pass-out-now/" target="_blank" rel="noreferrer">Xbox Wire: Bond is Back</a><a href="https://www.nintendo.com/en-ca/whatsnew/goldeneye-007-returns-for-nintendo-switch-online-expansion-pack-members/" target="_blank" rel="noreferrer">Nintendo: genudgivelsen</a><a href="docs/GoldenEye_007_Debatblog_Simon_og_Lucas.docx">Hent dansk-opgaven som DOCX</a><a href="docs/GoldenEye_007_Debatblog_Simon_og_Lucas.pdf">Læs dansk-opgaven som PDF</a></div></footer>
+      </article>
     </section>
 
     <section class="view" data-view="sammenligninger" aria-labelledby="compare-title" hidden>
@@ -144,25 +175,27 @@
 
     <section class="view article-view" data-view="rapport" aria-labelledby="report-title" hidden>
       <div class="page-heading page-shell"><div><p class="eyebrow">S12 · Efterretningsrapport</p><h1 id="report-title">Hvad er fænomenet James Bond?</h1><p class="lede">En samlet arbejdskonklusion på tværs af karakter, filmhistorie og spil.</p></div><span class="page-number">012</span></div>
-      <div class="page-shell report-layout"><aside><strong>Rapportstatus</strong><span>Fagligt arbejdsudkast</span><span>Dansk + Kom/IT A</span><span>Målgruppe: etablerede fans</span></aside><article class="prose"><p class="report-lead">James Bond fungerer som et kulturelt ikon, fordi figuren kombinerer en stabil kerne med en usædvanlig evne til at skifte form.</p><h2>Det stabile</h2><p>Missionen, handlekraften, elegancen og forbindelsen til britisk efterretning gør figuren genkendelig på tværs af skuespillere og medier.</p><h2>Det foranderlige</h2><p>Synet på køn, vold, autoritet og sårbarhed følger samtiden. Hver periode ændrer derfor, hvad publikum opfatter som en troværdig helt.</p><h2>First Lights bidrag</h2><p>Spillet vender tilbage til begyndelsen og gør udviklingen interaktiv. Spilleren deltager i processen, hvor den impulsive rekrut lærer den kontrol, der senere definerer 007.</p><div class="pullquote">Bond overlever som fænomen, fordi genkendelighed og forandring arbejder sammen.</div><p class="draft-note">Tilpas rapporten, når jeres danskfaglige analyser og endelige problemformulering ligger klar.</p></article></div>
+      <div class="page-shell report-layout"><aside><strong>Rapportstatus</strong><span>Samlet konklusion</span><span>Dansk + Kom/IT A</span><span>Målgruppe: etablerede fans</span></aside><article class="prose"><p class="report-lead">James Bond fungerer som et kulturelt ikon, fordi figuren kombinerer en stabil kerne med en usædvanlig evne til at skifte form.</p><h2>Det stabile</h2><p>Missionen, handlekraften, elegancen og forbindelsen til britisk efterretning gør figuren genkendelig på tværs af skuespillere og medier.</p><h2>Det foranderlige</h2><p>Synet på køn, vold, autoritet og sårbarhed følger samtiden. Hver periode ændrer derfor, hvad publikum opfatter som en troværdig helt.</p><h2>Spillenes bidrag</h2><p><em>GoldenEye 007</em> viser, at Bond også kan defineres gennem spillerens handlinger: at observere, vælge en tilgang og leve med konsekvensen. <em>007 First Light</em> viderefører idéen ved at gøre vejen mod 00-status til selve fortællingen.</p><div class="pullquote">Bond overlever som fænomen, fordi genkendelighed og forandring arbejder sammen.</div><p class="analysis-note"><strong>Konklusion:</strong> Portalens film- og spilanalyser peger på det samme mønster. Mediet, samtiden og målgruppen ændrer udtrykket, mens missionen, kompetencen og den kontrollerede performance bevarer figurens identitet.</p></article></div>
     </section>
 
     <section class="view" data-view="kilder" aria-labelledby="sources-title" hidden>
-      <div class="page-heading page-shell"><div><p class="eyebrow">S13 · Kildearkiv</p><h1 id="sources-title">Kilder og bevismateriale</h1><p class="lede">Primære kilder, officielle oplysninger og plads til jeres egne analysehenvisninger.</p></div><span class="page-number">013</span></div>
+      <div class="page-heading page-shell"><div><p class="eyebrow">S13 · Kildearkiv</p><h1 id="sources-title">Kilder og bevismateriale</h1><p class="lede">Primære kilder, officielle oplysninger, projektmateriale og konkrete analysebeviser.</p></div><span class="page-number">013</span></div>
       <div class="page-shell source-filter" role="group" aria-label="Filtrér kilder"><button class="active" type="button" data-source-filter="all">Alle</button><button type="button" data-source-filter="official">Officielle</button><button type="button" data-source-filter="analysis">Analyse</button><button type="button" data-source-filter="project">Projekt</button></div>
       <div class="page-shell source-list" id="source-list">
         <a href="https://www.007.com/" target="_blank" rel="noreferrer" data-source-type="official"><span>Officiel</span><strong>James Bond 007</strong><p>Filmseriens officielle portal og historiske arkiv.</p><small>007.com</small></a>
         <a href="https://ioi.dk/007firstlightgame/news/2026/007-first-light-launches-globally" target="_blank" rel="noreferrer" data-source-type="official"><span>Officiel</span><strong>007 First Light launches globally</strong><p>Udgivelse, historie, platforme og medvirkende.</p><small>IO Interactive, 27. maj 2026</small></a>
         <a href="https://ioi.dk/007firstlightgame/news/2025/007-first-light-gameplay-reveal" target="_blank" rel="noreferrer" data-source-type="official"><span>Officiel</span><strong>Gameplay Reveal</strong><p>Spillets genre, mekanikker og oprindelseshistorie.</p><small>IO Interactive</small></a>
-        <div data-source-type="analysis"><span>Analyse</span><strong>Udvalgte filmscener</strong><p>Indsæt filmtitel, tidspunkt og kort begrundelse.</p><small>Udfyldes af Simon og Lucas</small></div>
+        <a href="https://www.xbox.com/en-US/games/goldeneye-007" target="_blank" rel="noreferrer" data-source-type="official"><span>Officiel</span><strong>GoldenEye 007</strong><p>Spilfakta, funktioner og de tre screenshots analyseret i debatbloggen.</p><small>Xbox / Rare</small></a>
+        <a href="https://news.xbox.com/en-us/2023/01/26/goldeneye-007-xbox-game-pass-out-now/" target="_blank" rel="noreferrer" data-source-type="official"><span>Officiel</span><strong>Bond is Back</strong><p>Genudgivelse, missioner, moderne styring og platforme.</p><small>Xbox Wire, 26. januar 2023</small></a>
+        <div data-source-type="analysis"><span>Analyse</span><strong>GoldenEye: Dam, Silo og Train</strong><p>Tre konkrete scener analyseret med perspektiv, rum, farver, komposition og spillerhandling.</p><small>Simon og Lucas · 7. oktober 2026</small></div>
         <div data-source-type="project"><span>Projekt</span><strong>Interaktionsdesign Del 1–4</strong><p>Undervisningsslides om målgruppe, wireframe, Normans principper og designmanual.</p><small>Kommunikation & IT A</small></div>
-        <div data-source-type="project"><span>Projekt</span><strong>Danskfaglige noter</strong><p>Indsæt analyser af narratologi, karakteristik og filmiske virkemidler.</p><small>Arbejdsmappe</small></div>
+        <a href="docs/GoldenEye_007_Debatblog_Simon_og_Lucas.docx" data-source-type="project"><span>Projekt</span><strong>Danskopgave: Mesterværk eller museum?</strong><p>Færdig debatblog til unge, der kender Bond-spil af navn, men ikke har spillet klassikeren.</p><small>DOCX · Simon og Lucas</small></a>
       </div>
       <div class="page-shell source-note"><strong>Kildekritik</strong><p>Vurdér afsender, formål, aktualitet og troværdighed. Skeln mellem officielle oplysninger, analyse og markedsføring.</p></div>
     </section>
   </main>
 
-  <footer class="site-footer"><div class="page-shell"><div><strong>007 Vidensportal</strong><p>Simon og Lucas · Kommunikation & IT A</p></div><nav aria-label="Footer"><a href="#home">Hovedkvarter</a><a href="#kilder">Kildearkiv</a><a href="designmanual.html">Designmanual</a></nav><p class="disclaimer">Et ikke-kommercielt skoleprojekt. James Bond og 007 tilhører deres respektive rettighedshavere.</p></div></footer>
+  <footer class="site-footer"><div class="page-shell"><div><strong>007 Vidensportal</strong><p>Simon og Lucas · Kommunikation & IT A</p></div><nav aria-label="Footer og projektmateriale"><a href="#home">Hovedkvarter</a><a href="#kilder">Kildearkiv</a><a href="designmanual.html">Designmanual online</a><a href="docs/007_Procesdokumentation_Simon_og_Lucas.docx">Proces DOCX</a><a href="docs/007_Designmanual_Simon_og_Lucas.docx">Designmanual DOCX</a><a href="docs/007_Brugertest_og_Evaluering_Simon_og_Lucas.docx">Brugertest DOCX</a><a href="docs/GoldenEye_007_Debatblog_Simon_og_Lucas.docx">Danskopgave DOCX</a></nav><p class="disclaimer">Et ikke-kommercielt skoleprojekt. James Bond og 007 tilhører deres respektive rettighedshavere.</p></div></footer>
 
   <dialog class="search-dialog" id="search-dialog"><form method="dialog"><div class="search-head"><label for="search-input">Søg i arkivet</label><button type="button" data-close-search aria-label="Luk søgning">Luk</button></div><input id="search-input" type="search" autocomplete="off" placeholder="Søg efter film, periode eller emne"><div class="search-results" id="search-results" aria-live="polite"></div></form></dialog>
   <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>

@@ -7,56 +7,64 @@
       summary: 'Den første EON-film etablerer Bond som en kølig professionel i en verden af spionage, eksotiske miljøer og teknologiske trusler.',
       drama: 'En lineær efterforskning fører Bond fra London til Jamaica og videre ind i Dr. No’s skjulte anlæg. Spændingen vokser, efterhånden som sporene samles.',
       style: 'Kontrasten mellem kontrollerede britiske rum og stærke caribiske farver gør miljøskiftet tydeligt. Musik, kostumer og billedkomposition skaber den tidlige Bond-stil.',
-      bond: 'Connery kombinerer fysisk ro, tør humor og farlighed. Figuren virker erfaren fra første scene og viser sjældent tvivl.'
+      bond: 'Connery kombinerer fysisk ro, tør humor og farlighed. Figuren virker erfaren fra første scene og viser sjældent tvivl.',
+      evidence: 'Scenehenvisning: Bonds introduktion ved baccaratbordet viser identiteten gennem langsom afsløring, kontrolleret blik og den præcise præsentation “Bond, James Bond”. På Crab Key ændres de elegante rum til et teknologisk skjulested, hvor handlingen beviser hans evne til at observere og improvisere.'
     },
     {
       id: 'ohmss', title: 'On Her Majesty’s Secret Service', year: 1969, actor: 'George Lazenby', era: 'classic', tag: 'Den sårbare agent',
       summary: 'Filmen gør kærlighed og personligt tab til en central del af missionen og viser en mere følelsesmæssigt åben Bond.',
       drama: 'Missionen mod Blofeld flettes sammen med forholdet til Tracy. Den private fortælling skærper filmens afsluttende tragedie.',
       style: 'Hurtig klipning og dynamiske actionbilleder står over for romantiske montager. Musikken binder eventyr og melankoli sammen.',
-      bond: 'Lazenbys Bond er mindre urørlig. Han vælger et muligt liv uden for tjenesten, og tabet får derfor større vægt.'
+      bond: 'Lazenbys Bond er mindre urørlig. Han vælger et muligt liv uden for tjenesten, og tabet får derfor større vægt.',
+      evidence: 'Scenehenvisning: Montagen med Bond og Tracy gør deres forhold til et handlingsforløb i sig selv. I slutscenen fastholder kameraet det private tab frem for en ny mission, og Bonds professionelle maske bryder sammen.'
     },
     {
       id: 'spy-who-loved-me', title: 'The Spy Who Loved Me', year: 1977, actor: 'Roger Moore', era: 'classic', tag: 'Det store spektakel',
       summary: 'Et globalt eventyr, hvor Bond samarbejder med en sovjetisk agent og hvor humor, gadgets og store kulisser fylder meget.',
       drama: 'To rivaliserende agenter følger samme sag og tvinges til samarbejde. Konflikten bliver personlig, da Bonds fortid bliver afsløret.',
       style: 'Store totalbilleder, futuristiske scenografier og ikoniske stunts gør filmen til et visuelt spektakel.',
-      bond: 'Moores version løser spændinger med charme og vittighed. Han virker socialt smidig og mindre brutal end sin forgænger.'
+      bond: 'Moores version løser spændinger med charme og vittighed. Han virker socialt smidig og mindre brutal end sin forgænger.',
+      evidence: 'Scenehenvisning: Skiåbningen skifter fra fare til triumf i det øjeblik faldskærmen folder sig ud. Senere gør Lotus-bilen, der kører under vand, teknologien til visuel humor og demonstrerer periodens lyst til spektakel.'
     },
     {
       id: 'living-daylights', title: 'The Living Daylights', year: 1987, actor: 'Timothy Dalton', era: 'transition', tag: 'Alvor og pligt',
       summary: 'Daltons debut flytter serien mod en mere alvorlig og litterær Bond, som tydeligt mistror både fjender og egne overordnede.',
       drama: 'En tilsyneladende afhoppet general sætter en kæde af bedrag i gang. Bond må selv afgøre, hvem han kan stole på.',
       style: 'Koldkrigsprægede miljøer og mere jordnære actionscener dæmper den rene fantasi og giver missionen fysisk tyngde.',
-      bond: 'Dalton fremstår intens, professionel og vred. Humoren er mere sparsom, mens pligtkonflikten står tydeligere.'
+      bond: 'Dalton fremstår intens, professionel og vred. Humoren er mere sparsom, mens pligtkonflikten står tydeligere.',
+      evidence: 'Scenehenvisning: Under flugten fra Bratislava improviserer Bond med cellokassen, men scenens tempo og fysiske risiko bevarer alvoren. Kombinationen viser en agent, der stadig er opfindsom uden at gøre faren til ren vittighed.'
     },
     {
       id: 'goldeneye', title: 'GoldenEye', year: 1995, actor: 'Pierce Brosnan', era: 'transition', tag: 'Efter den kolde krig',
       summary: 'Bond placeres i en ny geopolitisk virkelighed, hvor en tidligere ven og hans egen fortid bliver den centrale trussel.',
       drama: 'Konflikten med Alec Trevelyan spejler Bond i en agent, der har vendt sig mod systemet. Missionen bliver både global og personlig.',
       style: 'Klassisk glamour møder 1990’ernes teknologi, hurtige actionsekvenser og tydelige digitale trusler.',
-      bond: 'Brosnan samler elegance, humor og fysisk handlekraft. Samtidig bliver figurens relevans og kønsrolle udfordret direkte.'
+      bond: 'Brosnan samler elegance, humor og fysisk handlekraft. Samtidig bliver figurens relevans og kønsrolle udfordret direkte.',
+      evidence: 'Scenehenvisning: Dæmningsspringet præsenterer Bond gennem en ekstrem fysisk handling og et stort totalbillede. I mødet med Alec i Cuba bliver spektaklet personligt, fordi modstanderen kender agentens fortid og bruger den imod ham.'
     },
     {
       id: 'casino-royale', title: 'Casino Royale', year: 2006, actor: 'Daniel Craig', era: 'modern', tag: 'En ny begyndelse',
       summary: 'Serien genstarter Bond som ny 00-agent og lader hans forhold til Vesper Lynd forme den professionelle maske, publikum kender.',
       drama: 'En mission ved pokerbordet udvikler sig til et personligt forhold og et afgørende svigt. Oprindelseshistorien forklarer Bonds senere distance.',
       style: 'Nærgående action, dæmpede farver og fysisk konsekvens gør helten mere kropslig. Elegancen bygges gradvist op omkring ham.',
-      bond: 'Craig begynder impulsiv og usleben. Kompetencen er tydelig, men kontrollen og den følelsesmæssige afstand bliver til undervejs.'
+      bond: 'Craig begynder impulsiv og usleben. Kompetencen er tydelig, men kontrollen og den følelsesmæssige afstand bliver til undervejs.',
+      evidence: 'Scenehenvisning: Parkourjagten viser to problemløsningsstile gennem krop og klipning: Mollaka flyder gennem rummet, mens Bond bryder igennem det. Torturscenen fjerner våben og glamour og gør humor til den sidste form for kontrol.'
     },
     {
       id: 'skyfall', title: 'Skyfall', year: 2012, actor: 'Daniel Craig', era: 'modern', tag: 'Arv og identitet',
       summary: 'Bond vender tilbage svækket og må forsvare både M og den institution, han selv har et vanskeligt forhold til.',
       drama: 'En hævnfortælling presser Bond tilbage mod barndommens hjem. Den ydre mission kobles direkte til tab, loyalitet og erindring.',
       style: 'Stærke silhuetter, farvemættede nattemiljøer og klassiske britiske landskaber gør hvert sted tematisk betydningsfuldt.',
-      bond: 'Figuren er aldrende og fejlbarlig, men vælger fortsat tjenesten. Sårbarheden erstatter ikke handlekraften; den giver den en pris.'
+      bond: 'Figuren er aldrende og fejlbarlig, men vælger fortsat tjenesten. Sårbarheden erstatter ikke handlekraften; den giver den en pris.',
+      evidence: 'Scenehenvisning: Kampen i Shanghai reduceres til silhuetter mod lysende glas og gør volden næsten abstrakt. Ved Skyfall Lodge skifter filmen til ild, mørke og barndommens landskab, så missionen bliver knyttet til Bonds egen historie.'
     },
     {
       id: 'no-time-to-die', title: 'No Time to Die', year: 2021, actor: 'Daniel Craig', era: 'modern', tag: 'Afslutningen',
       summary: 'Craigs sidste film lader Bond konfrontere familie, ansvar og den endelige konsekvens af et liv styret af missioner.',
       drama: 'Fortiden vender tilbage gennem både fjenden og Bonds relationer. Valget mellem selvbeskyttelse og omsorg driver afslutningen.',
       style: 'Store landskaber og præcis action forbindes med intime nærbilleder. Det episke og det private får samme vægt.',
-      bond: 'Bond accepterer til sidst en identitet ud over agentrollen. Heltemodet bliver et bevidst offer for andre.'
+      bond: 'Bond accepterer til sidst en identitet ud over agentrollen. Heltemodet bliver et bevidst offer for andre.',
+      evidence: 'Scenehenvisning: DB5-sekvensen i Matera lukker Bond og Madeleine inde bag panserglas, mens skuddene presser tilliden mellem dem. På øen samler de sidste nærbilleder og den åbne himmel seriens action og private afsked i ét valg.'
     }
   ];
 
@@ -84,7 +92,7 @@
     ['karakteranalyse', 'Karakteranalyse', 'Den moderne helt'], ['arkiv', '007-arkiv', 'Film og fortolkere'],
     ['filmsagsmappe', 'Filmsagsmappe', 'Analyse af en valgt film'], ['tidslinje', 'Tidslinje', 'Bond gennem tiden'],
     ['periodeprofil', 'Periodeprofil', 'En valgt Bond-periode'], ['firstlight', '007 First Light', 'Spilbriefing'],
-    ['spilanalyse', 'Spilanalyse', 'Gameplay og fortælling'], ['sammenligninger', 'Sammenligninger', 'Vælg to fortolkninger'],
+    ['spilanalyse', 'Spilanalyse', 'GoldenEye 007: debatblog og scenelæsning'], ['sammenligninger', 'Sammenligninger', 'Vælg to fortolkninger'],
     ['sammenligning', 'Sammenligning', 'Resultat side om side'], ['rapport', 'Efterretningsrapport', 'Samlet konklusion'],
     ['kilder', 'Kildearkiv', 'Kilder og bevismateriale']
   ];
@@ -132,6 +140,7 @@
     document.querySelector('[data-film-drama]').textContent = film.drama;
     document.querySelector('[data-film-style]').textContent = film.style;
     document.querySelector('[data-film-bond]').textContent = film.bond;
+    document.querySelector('[data-film-evidence]').innerHTML = `<strong>Analysebevis:</strong> ${film.evidence}`;
   }
 
   function renderTimeline() {
@@ -207,6 +216,7 @@
   const nav = byId('primary-nav');
   function closeMenu() {
     nav.classList.remove('open');
+    document.body.classList.remove('menu-open');
     menuButton.setAttribute('aria-expanded', 'false');
   }
 
@@ -250,6 +260,7 @@
 
   menuButton.addEventListener('click', () => {
     const open = nav.classList.toggle('open');
+    document.body.classList.toggle('menu-open', open);
     menuButton.setAttribute('aria-expanded', String(open));
   });
 
