@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="En dansk vidensportal om James Bond, filmhistorie, karakterudvikling og 007 First Light.">
+  <meta name="theme-color" content="#0b0c0e">
+  <title>007 Vidensportal</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='8' fill='%230b0c0e'/%3E%3Ccircle cx='32' cy='32' r='22' fill='none' stroke='%23c7a86a' stroke-width='3'/%3E%3Ctext x='32' y='40' text-anchor='middle' font-family='Georgia' font-size='24' fill='%23f5f1e8'%3E7%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Spring til indhold</a>
+  <header class="site-header" data-header>
+    <a class="brand" href="#home" aria-label="007 Vidensportal, gå til Hovedkvarter">
+      <span class="brand-mark" aria-hidden="true">7</span>
+      <span class="brand-copy"><strong>007</strong><small>VIDENSPORTAL</small></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span><span class="sr-only">Åbn menu</span></button>
+    <nav id="primary-nav" class="primary-nav" aria-label="Hovednavigation">
+      <a href="#agentprofil" data-nav="agentprofil">Agentprofil</a>
+      <a href="#arkiv" data-nav="arkiv">007-arkiv</a>
+      <a href="#tidslinje" data-nav="tidslinje">Tidslinje</a>
+      <a href="#firstlight" data-nav="firstlight">First Light</a>
+      <a href="#sammenligninger" data-nav="sammenligninger">Sammenlign</a>
+      <a href="#rapport" data-nav="rapport">Rapport</a>
+      <a href="#kilder" data-nav="kilder">Kilder</a>
+    </nav>
+    <button class="search-trigger" type="button" data-open-search aria-label="Søg i portalen">Søg <kbd>/</kbd></button>
+  </header>
+
+  <main id="main-content" tabindex="-1">
+    <section class="view home-view" data-view="home" aria-labelledby="home-title">
+      <div class="hero">
+        <img src="assets/hero-spy.png" alt="En anonym agent står i et mørkt efterretningsarkiv" data-image="hero">
+        <div class="hero-shade"></div>
+        <div class="hero-copy page-shell">
+          <p class="eyebrow">Hovedkvarter · Sag 007</p>
+          <h1 id="home-title">James Bond gennem film, tid og spil</h1>
+          <p>Et arkiv over den figur, der siden 1960'erne har skiftet udtryk uden at miste sin genkendelige kerne.</p>
+          <a class="button button-primary" href="#agentprofil">Åbn agentprofil</a>
+        </div>
+        <div class="hero-index" aria-hidden="true">001</div>
+      </div>
+      <div class="page-shell home-intro">
+        <div>
+          <p class="section-label">Vælg sagsområde</p>
+          <h2>Undersøg Bond-universet</h2>
+        </div>
+        <p>Portalen samler karakteranalyse, filmhistorie, periodeskift og en analyse af 007 First Light. Filmene står centralt, mens spillet viser, hvordan Bond fortsat bliver fortolket i nye medier.</p>
+      </div>
+      <div class="page-shell feature-grid">
+        <a class="feature feature-wide" href="#agentprofil"><span>01</span><h3>Agentprofil</h3><p>Bond som karakter og moderne helt</p></a>
+        <a class="feature" href="#arkiv"><span>02</span><h3>007-arkiv</h3><p>Udvalgte film og fortolkere</p></a>
+        <a class="feature" href="#tidslinje"><span>03</span><h3>Tidslinje</h3><p>Seks perioder fra Connery til Craig</p></a>
+        <a class="feature feature-image" href="#firstlight"><img src="assets/young-agent.png" alt="En ung anonym agent bevæger sig gennem en europæisk by"><span>04</span><h3>First Light</h3></a>
+        <a class="feature" href="#sammenligninger"><span>05</span><h3>Sammenligninger</h3><p>Se forskelle mellem perioder og medier</p></a>
+        <a class="feature" href="#rapport"><span>06</span><h3>Efterretningsrapport</h3><p>Portalens samlede konklusion</p></a>
+      </div>
+    </section>
+
+    <section class="view" data-view="agentprofil" aria-labelledby="agent-title" hidden>
+      <div class="page-heading page-shell"><div><p class="eyebrow">S02 · Agentprofil</p><h1 id="agent-title">James Bond</h1><p class="lede">En figur bygget på kontrol, handlekraft og en konstant konflikt mellem professionel pligt og personlig sårbarhed.</p></div><span class="page-number">002</span></div>
+      <div class="page-shell profile-layout">
+        <figure class="archive-figure"><img src="assets/archive-dossier.png" alt="Filmspoler, kontaktark og en agentmappe på et mørkt bord"><figcaption>Arkivmateriale · Karakter og filmhistorie</figcaption></figure>
+        <div class="profile-data">
+          <dl><div><dt>Kodenavn</dt><dd>007</dd></div><div><dt>Funktion</dt><dd>Britisk efterretningsagent</dd></div><div><dt>Metode</dt><dd>Observation, improvisation og risikovillighed</dd></div><div><dt>Grundkonflikt</dt><dd>Pligt over for nærhed</dd></div></dl>
+          <blockquote>Bond forbliver genkendelig, fordi hver periode bevarer figuren som kompetent outsider og samtidig ændrer hans moral, humor og følelsesliv.</blockquote>
+          <a class="button button-primary" href="#karakteranalyse">Læs karakteranalysen</a>
+        </div>
+      </div>
+      <div class="page-shell trait-strip"><article><span>01</span><h2>Kontrol</h2><p>Bond læser rum, mennesker og risici hurtigt.</p></article><article><span>02</span><h2>Performance</h2><p>Stil og ro fungerer som en professionel maske.</p></article><article><span>03</span><h2>Sårbarhed</h2><p>Nyere fortolkninger lader tab få varige konsekvenser.</p></article></div>
+    </section>
+
+    <section class="view article-view" data-view="karakteranalyse" aria-labelledby="character-title" hidden>
+      <div class="page-shell breadcrumb"><a href="#agentprofil">Agentprofil</a><span>/</span><span>Karakteranalyse</span></div>
+      <div class="page-heading page-shell"><div><p class="eyebrow">S03 · Analyse</p><h1 id="character-title">Den moderne helt</h1><p class="lede">Bond bevæger sig mellem klassisk helt, professionel antihelt og sårbart menneske.</p></div><span class="page-number">003</span></div>
+      <div class="page-shell article-layout">
+        <aside class="article-nav" aria-label="Indhold"><strong>I denne analyse</strong><a href="#karakteranalyse?section=character-role">Helterollen</a><a href="#karakteranalyse?section=character-values">Værdier</a><a href="#karakteranalyse?section=character-change">Udvikling</a></aside>
+        <article class="prose">
+          <h2 id="character-role">Helterollen</h2><p>Bond løser problemer gennem kunnen og handling. Han følger en mission, men bryder ofte reglerne, når hans egen vurdering vejer tungere end institutionens. Det gør ham effektiv og vanskelig at kontrollere.</p>
+          <p>Den klassiske Bond fremstår næsten urørlig. Senere fortolkninger viser tydeligere, at vold, tab og loyalitet påvirker ham. Figuren bliver dermed mindre mytisk og mere psykologisk.</p>
+          <div class="pullquote">Den moderne Bond er stadig kompetent, men kompetencen beskytter ham ikke længere mod konsekvenser.</div>
+          <h2 id="character-values">Værdier og moral</h2><p>Loyaliteten retter sig både mod missionen og mod enkelte mennesker. Spændingen opstår, når de to hensyn kolliderer. Bond vælger ofte selv, hvad pligten kræver, og det placerer ham mellem helt og antihelt.</p>
+          <h2 id="character-change">Udvikling gennem perioderne</h2><p>Humor, maskulinitet, teknologi og relationer skifter med samtiden. Kontrol, elegance og handlekraft fungerer som figurens stabile kerne. Derfor kan publikum genkende Bond, selv når tone og moral ændrer sig.</p>
+          <p class="draft-note">Arbejdsudkast: Udbyg afsnittene med jeres konkrete citater, scener og danskfaglige begreber.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="view" data-view="arkiv" aria-labelledby="archive-title" hidden>
+      <div class="page-heading page-shell"><div><p class="eyebrow">S04 · 007-arkiv</p><h1 id="archive-title">Film og fortolkere</h1><p class="lede">Udvalgte nedslag viser, hvordan figuren ændrer sig fra periode til periode.</p></div><span class="page-number">004</span></div>
+      <div class="page-shell archive-toolbar"><label>Filtrér periode<select id="era-filter"><option value="all">Alle perioder</option><option value="classic">1962–1985</option><option value="transition">1987–2002</option><option value="modern">2006–2021</option></select></label><p id="archive-count" aria-live="polite"></p></div>
+      <div class="page-shell film-grid" id="film-grid"></div>
+    </section>
+
+    <section class="view article-view" data-view="filmsagsmappe" aria-labelledby="film-title" hidden>
+      <div class="page-shell breadcrumb"><a href="#arkiv">007-arkiv</a><span>/</span><span>Filmsagsmappe</span></div>
+      <div class="film-case page-shell">
+        <div class="case-poster" aria-hidden="true"><span data-film-year>1962</span><strong>007</strong></div>
+        <article><p class="eyebrow">S05 · Filmsagsmappe</p><h1 id="film-title" data-film-title>Dr. No</h1><p class="film-meta" data-film-meta></p><p class="lede" data-film-summary></p><div class="case-sections"><section><h2>Dramaturgi</h2><p data-film-drama></p></section><section><h2>Filmiske virkemidler</h2><p data-film-style></p></section><section><h2>Bond-fortolkning</h2><p data-film-bond></p></section></div><p class="draft-note">Filmsagsmappen er et arbejdsudkast. Tilføj jeres egne scenehenvisninger og analysebeviser.</p></article>
+      </div>
+    </section>
+
+    <section class="view" data-view="tidslinje" aria-labelledby="timeline-title" hidden>
+      <div class="page-heading page-shell"><div><p class="eyebrow">S06 · Tidslinje</p><h1 id="timeline-title">Bond gennem tiden</h1><p class="lede">Seks perioder viser, hvordan helten følger sin samtid.</p></div><span class="page-number">006</span></div>
+      <div class="page-shell timeline" id="timeline-list"></div>
+    </section>
+
+    <section class="view article-view" data-view="periodeprofil" aria-labelledby="period-title" hidden>
+      <div class="page-shell breadcrumb"><a href="#tidslinje">Tidslinje</a><span>/</span><span>Periodeprofil</span></div>
+      <div class="page-heading page-shell"><div><p class="eyebrow">S07 · Periodeprofil</p><h1 id="period-title" data-period-title>Sean Connery</h1><p class="lede" data-period-lede></p></div><span class="page-number">007</span></div>
+      <div class="page-shell period-layout"><div class="period-stat"><span data-period-years></span><strong data-period-count></strong><small>EON-film</small></div><article class="prose"><h2>Samtid og idealer</h2><p data-period-context></p><h2>Bondkarakteren</h2><p data-period-bond></p><h2>Se efter i analysen</h2><ul data-period-focus></ul></article></div>
+    </section>
+
+    <section class="view" data-view="firstlight" aria-labelledby="firstlight-title" hidden>
+      <div class="game-hero"><img src="assets/young-agent.png" alt="En ung anonym agent i en europæisk by ved skumring"><div class="game-hero-copy page-shell"><p class="eyebrow">S08 · Spilbriefing</p><h1 id="firstlight-title">007 First Light</h1><p>En selvstændig oprindelseshistorie om en ung Bond på vej ind i MI6's eliteprogram.</p><a class="button button-primary" href="#spilanalyse">Åbn spilanalysen</a></div></div>
+      <div class="page-shell fact-line"><div><small>Udgivelse</small><strong>27. maj 2026</strong></div><div><small>Udvikler</small><strong>IO Interactive</strong></div><div><small>Genre</small><strong>Tredjepersons actioneventyr</strong></div><div><small>Bond</small><strong>Patrick Gibson</strong></div></div>
+      <div class="page-shell game-intro"><div><p class="section-label">Ny fortolkning</p><h2>Før nummeret</h2></div><p>Spillet fremstiller Bond som en dygtig, men endnu udisciplineret rekrut. Dermed flytter fokus fra den færdige ikonfigur til processen, hvor han lærer at blive 007.</p></div>
+      <div class="page-shell analysis-teasers"><article><span>01</span><h3>Gameplay</h3><p>Stealth, social aflæsning, gadgets, kamp og kørsel giver spilleren flere måder at løse missioner på.</p></article><article><span>02</span><h3>Fortælling</h3><p>Oprindelseshistorien undersøger, hvilke valg og tab der former Bond.</p></article><article><span>03</span><h3>Design</h3><p>Elegance og teknologisk præcision forbindes med et yngre og mere impulsivt udtryk.</p></article></div>
+    </section>
+
+    <section class="view article-view" data-view="spilanalyse" aria-labelledby="game-analysis-title" hidden>
+      <div class="page-shell breadcrumb"><a href="#firstlight">007 First Light</a><span>/</span><span>Spilanalyse</span></div>
+      <div class="page-heading page-shell"><div><p class="eyebrow">S09 · Spilanalyse</p><h1 id="game-analysis-title">At spille sig til 007</h1><p class="lede">Spilleren oplever Bond gennem valg og handling frem for kun at betragte ham.</p></div><span class="page-number">009</span></div>
+      <div class="page-shell analysis-columns"><article><span>01</span><h2>Gameplay</h2><p>Forskellige løsningsmuligheder giver plads til både observation og direkte handling. Det understøtter Bond som improviserende agent.</p></article><article><span>02</span><h2>Fortælling</h2><p>En oprindelseshistorie skaber dramatik omkring udviklingen fra talentfuld rekrut til kontrolleret 00-agent.</p></article><article><span>03</span><h2>Design</h2><p>Spionudstyr, steder og elegante miljøer forbinder spillets nye figur med filmseriens ikonografi.</p></article></div>
+      <div class="page-shell mapping-block"><p class="section-label">Mapping</p><h2>Handling og betydning hænger sammen</h2><div><span>Observer omgivelserne</span><b>giver</b><span>viden og nye muligheder</span><span>Vælg tilgang</span><b>giver</b><span>en forskellig missionsoplevelse</span><span>Tag risikoen</span><b>giver</b><span>konsekvens og tempo</span></div></div>
+      <p class="page-shell draft-note">Arbejdsudkast: Erstat vurderingerne med jeres egne observationer fra udvalgte gameplaysekvenser.</p>
+    </section>
+
+    <section class="view" data-view="sammenligninger" aria-labelledby="compare-title" hidden>
+      <div class="page-heading page-shell"><div><p class="eyebrow">S10 · Sammenligninger</p><h1 id="compare-title">To fortolkninger side om side</h1><p class="lede">Vælg to perioder eller medier og sammenlign deres version af Bond.</p></div><span class="page-number">010</span></div>
+      <form class="page-shell compare-picker" id="compare-form"><label>Værk A<select id="compare-a"></select></label><span aria-hidden="true">VS</span><label>Værk B<select id="compare-b"></select></label><button class="button button-primary" type="submit">Sammenlign</button></form>
+      <div class="page-shell suggested-comparisons"><p class="section-label">Forslag</p><button type="button" data-pair="connery,craig"><strong>Connery / Craig</strong><span>Klassisk sikkerhed over for psykologisk sårbarhed</span></button><button type="button" data-pair="casino,firstlight"><strong>Casino Royale / First Light</strong><span>To begyndelser i forskellige medier</span></button><button type="button" data-pair="brosnan,craig"><strong>Brosnan / Craig</strong><span>Teknologisk overblik over for fysisk konsekvens</span></button></div>
+    </section>
+
+    <section class="view" data-view="sammenligning" aria-labelledby="comparison-detail-title" hidden>
+      <div class="page-shell breadcrumb"><a href="#sammenligninger">Sammenligninger</a><span>/</span><span>Resultat</span></div>
+      <div class="page-heading page-shell compact-heading"><div><p class="eyebrow">S11 · Sammenligning</p><h1 id="comparison-detail-title"><span data-compare-name-a></span> / <span data-compare-name-b></span></h1></div><span class="page-number">011</span></div>
+      <div class="page-shell comparison-table" id="comparison-table"></div>
+      <div class="page-shell conclusion-band"><p class="section-label">Vigtigste forskel</p><p id="comparison-conclusion"></p></div>
+    </section>
+
+    <section class="view article-view" data-view="rapport" aria-labelledby="report-title" hidden>
+      <div class="page-heading page-shell"><div><p class="eyebrow">S12 · Efterretningsrapport</p><h1 id="report-title">Hvad er fænomenet James Bond?</h1><p class="lede">En samlet arbejdskonklusion på tværs af karakter, filmhistorie og spil.</p></div><span class="page-number">012</span></div>
+      <div class="page-shell report-layout"><aside><strong>Rapportstatus</strong><span>Fagligt arbejdsudkast</span><span>Dansk + Kom/IT A</span><span>Målgruppe: etablerede fans</span></aside><article class="prose"><p class="report-lead">James Bond fungerer som et kulturelt ikon, fordi figuren kombinerer en stabil kerne med en usædvanlig evne til at skifte form.</p><h2>Det stabile</h2><p>Missionen, handlekraften, elegancen og forbindelsen til britisk efterretning gør figuren genkendelig på tværs af skuespillere og medier.</p><h2>Det foranderlige</h2><p>Synet på køn, vold, autoritet og sårbarhed følger samtiden. Hver periode ændrer derfor, hvad publikum opfatter som en troværdig helt.</p><h2>First Lights bidrag</h2><p>Spillet vender tilbage til begyndelsen og gør udviklingen interaktiv. Spilleren deltager i processen, hvor den impulsive rekrut lærer den kontrol, der senere definerer 007.</p><div class="pullquote">Bond overlever som fænomen, fordi genkendelighed og forandring arbejder sammen.</div><p class="draft-note">Tilpas rapporten, når jeres danskfaglige analyser og endelige problemformulering ligger klar.</p></article></div>
+    </section>
+
+    <section class="view" data-view="kilder" aria-labelledby="sources-title" hidden>
+      <div class="page-heading page-shell"><div><p class="eyebrow">S13 · Kildearkiv</p><h1 id="sources-title">Kilder og bevismateriale</h1><p class="lede">Primære kilder, officielle oplysninger og plads til jeres egne analysehenvisninger.</p></div><span class="page-number">013</span></div>
+      <div class="page-shell source-filter" role="group" aria-label="Filtrér kilder"><button class="active" type="button" data-source-filter="all">Alle</button><button type="button" data-source-filter="official">Officielle</button><button type="button" data-source-filter="analysis">Analyse</button><button type="button" data-source-filter="project">Projekt</button></div>
+      <div class="page-shell source-list" id="source-list">
+        <a href="https://www.007.com/" target="_blank" rel="noreferrer" data-source-type="official"><span>Officiel</span><strong>James Bond 007</strong><p>Filmseriens officielle portal og historiske arkiv.</p><small>007.com</small></a>
+        <a href="https://ioi.dk/007firstlightgame/news/2026/007-first-light-launches-globally" target="_blank" rel="noreferrer" data-source-type="official"><span>Officiel</span><strong>007 First Light launches globally</strong><p>Udgivelse, historie, platforme og medvirkende.</p><small>IO Interactive, 27. maj 2026</small></a>
+        <a href="https://ioi.dk/007firstlightgame/news/2025/007-first-light-gameplay-reveal" target="_blank" rel="noreferrer" data-source-type="official"><span>Officiel</span><strong>Gameplay Reveal</strong><p>Spillets genre, mekanikker og oprindelseshistorie.</p><small>IO Interactive</small></a>
+        <div data-source-type="analysis"><span>Analyse</span><strong>Udvalgte filmscener</strong><p>Indsæt filmtitel, tidspunkt og kort begrundelse.</p><small>Udfyldes af Simon og Lucas</small></div>
+        <div data-source-type="project"><span>Projekt</span><strong>Interaktionsdesign Del 1–4</strong><p>Undervisningsslides om målgruppe, wireframe, Normans principper og designmanual.</p><small>Kommunikation & IT A</small></div>
+        <div data-source-type="project"><span>Projekt</span><strong>Danskfaglige noter</strong><p>Indsæt analyser af narratologi, karakteristik og filmiske virkemidler.</p><small>Arbejdsmappe</small></div>
+      </div>
+      <div class="page-shell source-note"><strong>Kildekritik</strong><p>Vurdér afsender, formål, aktualitet og troværdighed. Skeln mellem officielle oplysninger, analyse og markedsføring.</p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="page-shell"><div><strong>007 Vidensportal</strong><p>Simon og Lucas · Kommunikation & IT A</p></div><nav aria-label="Footer"><a href="#home">Hovedkvarter</a><a href="#kilder">Kildearkiv</a><a href="designmanual.html">Designmanual</a></nav><p class="disclaimer">Et ikke-kommercielt skoleprojekt. James Bond og 007 tilhører deres respektive rettighedshavere.</p></div></footer>
+
+  <dialog class="search-dialog" id="search-dialog"><form method="dialog"><div class="search-head"><label for="search-input">Søg i arkivet</label><button type="button" data-close-search aria-label="Luk søgning">Luk</button></div><input id="search-input" type="search" autocomplete="off" placeholder="Søg efter film, periode eller emne"><div class="search-results" id="search-results" aria-live="polite"></div></form></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>
