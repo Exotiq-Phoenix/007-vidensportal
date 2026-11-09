@@ -269,7 +269,7 @@
   const searchResults = byId('search-results');
   function updateSearch() {
     const query = searchInput.value.trim().toLowerCase();
-    const matches = pageIndex.filter(([, title, description]) => `${title} ${description}`.toLowerCase().includes(query));
+    const matches = [...pageIndex, ['firstlight?section=review-simon', 'Simons anmeldelse af First Light', 'Dansk · Bond som vi ikke kender ham endnu · vurdering 8/10'], ['firstlight?section=review-lucas', 'Lucas’ anmeldelse af First Light', 'Dansk · historie, gameplay, natklubmission og vurdering 8/10']].filter(([, title, description]) => `${title} ${description}`.toLowerCase().includes(query));
     searchResults.innerHTML = matches.map(([route, title, description]) => `<a href="#${route}"><strong>${title}</strong><span>${description}</span></a>`).join('') || '<p>Ingen sager matcher søgningen.</p>';
   }
   document.querySelector('[data-open-search]').addEventListener('click', () => { dialog.showModal(); updateSearch(); searchInput.focus(); });

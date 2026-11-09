@@ -9,7 +9,8 @@ Projektet er lavet af Simon og Lucas til Kommunikation & IT A. Målgruppen er 40
 - Agentprofil og karakteranalyse
 - Filmoversigt og filmsagsmapper
 - Interaktiv tidslinje og periodeprofiler
-- 007 First Light og en færdig GoldenEye 007-debatblog med tre scenelæsninger
+- 007 First Light med hver sin anmeldelse af Simon og Lucas fra dansk
+- En færdig GoldenEye 007-debatblog med tre scenelæsninger
 - Sammenligningsværktøj
 - Efterretningsrapport og kildearkiv
 

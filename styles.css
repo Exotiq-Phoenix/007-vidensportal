@@ -419,3 +419,41 @@ select { min-width: 240px; min-height: 48px; padding: 0 2.5rem 0 .9rem; color: v
 .image-credits > p { max-width: 75ch; }
 .image-credits .source-list { width: 100%; }
 .image-rights { margin-top: 1.5rem; color: var(--muted); font-size: .9rem; }
+
+/* Elevernes egne danskanmeldelser følger portalens eksisterende typografi. */
+.game-hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; }
+.review-jump { color: #fff; border-color: #c7a86a; background: rgba(11,12,14,.55); }
+.review-jump:hover { background: var(--red); border-color: var(--red); }
+.student-reviews { padding-bottom: 5rem; }
+.review-section-heading { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: end; margin-bottom: 2rem; }
+.review-section-heading h2 { margin-bottom: 0; }
+.review-section-heading > p { max-width: 42ch; color: var(--muted); }
+.student-review { border-top: 3px solid var(--gold-dark); padding: 2.5rem; background: var(--paper); scroll-margin-top: 100px; }
+.student-review-header { display: flex; justify-content: space-between; align-items: start; gap: 2rem; padding-bottom: 1.5rem; margin-bottom: 2rem; border-bottom: 1px solid var(--line); }
+.student-review-header h3 { max-width: 760px; font-size: clamp(2rem,3vw,3rem); margin-bottom: .8rem; }
+.review-byline { margin-bottom: 0; color: var(--muted); font-size: .9rem; }
+.review-score { flex-shrink: 0; color: var(--red); white-space: nowrap; }
+.review-score strong { font: 4rem/1 Georgia,serif; }
+.review-score span { font-size: 1rem; }
+.student-review-text { max-width: 760px; margin-inline: auto; font-family: var(--display); font-size: 1.15rem; line-height: 1.8; }
+.student-review-footer { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--line); }
+.student-review-footer > p { color: var(--muted); font-size: .85rem; }
+@media (max-width:760px) { .review-section-heading { grid-template-columns: 1fr; gap: 1rem; } .student-review { padding: 1.5rem; } .student-review-header { gap: 1rem; } .review-score strong { font-size: 3rem; } }
+
+.student-reviews h2 { scroll-margin-top: 100px; }
+.review-overview { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; border: 1px solid var(--line); margin-bottom: 2.5rem; background: var(--line); }
+.review-overview a { display: grid; gap: .65rem; padding: 1.5rem; background: var(--paper-bright); text-decoration: none; transition: background .2s ease,color .2s ease; }
+.review-overview a:hover { background: var(--ink-soft); color: #fff; }
+.review-overview span { color: var(--red); font-weight: 700; font-size: .8rem; }
+.review-overview a:hover span { color: var(--gold); }
+.review-overview strong { font-family: var(--display); font-size: 1.55rem; font-weight: 500; line-height: 1.2; }
+.review-overview small { font-size: .85rem; }
+.student-review + .student-review { margin-top: 3rem; }
+.review-original-meta { margin: .7rem 0 0; font-size: .85rem; color: var(--muted); }
+.review-verdict { font-weight: 700; }
+.review-basis { font-family: var(--body); font-size: .9rem; color: var(--muted); }
+.review-original-sources { max-width: 760px; margin: 2rem auto 0; overflow-wrap: anywhere; }
+.review-original-sources h4 { font-size: 1rem; margin: 0 0 .8rem; }
+.review-original-sources ul { margin: 0; padding-left: 1.25rem; font-size: .85rem; }
+.review-original-sources li { margin-bottom: .6rem; }
+@media (max-width:760px) { .review-overview { grid-template-columns: 1fr; } }
