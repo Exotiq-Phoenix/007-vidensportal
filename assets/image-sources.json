@@ -1,0 +1,68 @@
+[
+  {
+    "id": "B1",
+    "file": "assets/hero-spy.webp",
+    "title": "Seks Bond-fortolkere",
+    "credit": "Amazon MGM / About Amazon",
+    "source": "https://www.aboutamazon.com/news/entertainment/james-bond-movies-watch-prime-video",
+    "reason": "Forsidens montage viser filmhistoriens spændvidde og giver erfarne fans genkendelige indgange til arkivet.",
+    "processing": "WebP-komprimering; beskæring med object-fit i layoutet. Ingen generativ billedbehandling.",
+    "checked": "2026-11-09",
+    "sha256": "daeb11bd2702b6f1e16dcfe5cfe8b74e8802cced0df7e2e54773cb06f7085e7e"
+  },
+  {
+    "id": "B2",
+    "file": "assets/archive-dossier.webp",
+    "title": "Sean Connery i Goldfinger fra 1964",
+    "credit": "Amazon MGM / About Amazon",
+    "source": "https://www.aboutamazon.com/news/entertainment/james-bond-movies-watch-prime-video",
+    "reason": "Connery, jakkesættet og Aston Martin DB5 giver konkrete tegn på den klassiske Bond-identitet.",
+    "processing": "WebP-komprimering; beskæring med object-fit i layoutet. Ingen generativ billedbehandling.",
+    "checked": "2026-11-09",
+    "sha256": "11e3e7650223f0a3af5deef975901e1073521358ffd3391b24ef614f43ad2c95"
+  },
+  {
+    "id": "B3",
+    "file": "assets/young-agent.webp",
+    "title": "James Bond i 007 First Light",
+    "credit": "IO Interactive",
+    "source": "https://ioi.dk/007firstlightgame",
+    "reason": "Det officielle spilbillede identificerer den unge Bond, som spilbriefingen handler om.",
+    "processing": "WebP-komprimering; beskæring med object-fit i layoutet. Ingen generativ billedbehandling.",
+    "checked": "2026-11-09",
+    "sha256": "cf508a37afad823426d23410f2d3301e76061491d0fd27b8dfd42361969d3c1a"
+  },
+  {
+    "id": "B4",
+    "file": "assets/goldeneye-dam.webp",
+    "title": "GoldenEye 007 Dam",
+    "credit": "Rare / Microsoft · gengivet hos Pure Xbox",
+    "source": "https://www.purexbox.com/news/2022/09/gallery-here-are-the-first-goldeneye-007-screenshots-for-xbox",
+    "reason": "Vejens perspektiv og bjergene bruges til at analysere orientering og rum.",
+    "processing": "WebP-komprimering; beskæring med object-fit i layoutet. Ingen generativ billedbehandling.",
+    "checked": "2026-11-09",
+    "sha256": "c9a4258513a919af8c9744c83e0b52d6250be5c7b923faf173409666d43b042d"
+  },
+  {
+    "id": "B5",
+    "file": "assets/goldeneye-silo.webp",
+    "title": "GoldenEye 007 Silo",
+    "credit": "Rare / Microsoft · gengivet hos Pure Xbox",
+    "source": "https://www.purexbox.com/news/2022/09/gallery-here-are-the-first-goldeneye-007-screenshots-for-xbox",
+    "reason": "Det lave perspektiv og siloens ringe bruges som konkret belæg for analysen af trussel og skala.",
+    "processing": "WebP-komprimering; beskæring med object-fit i layoutet. Ingen generativ billedbehandling.",
+    "checked": "2026-11-09",
+    "sha256": "d8ffc05dba938178214e2563f19377b00275cb7299900d0aea6ee0a8210d9d08"
+  },
+  {
+    "id": "B6",
+    "file": "assets/goldeneye-watch.webp",
+    "title": "GoldenEye 007 Facility",
+    "credit": "Rare / Microsoft · gengivet hos Pure Xbox",
+    "source": "https://www.purexbox.com/news/2022/09/gallery-here-are-the-first-goldeneye-007-screenshots-for-xbox",
+    "reason": "Hånden, Alec og tankene forbinder spillerens krop med fortælling og konflikt i rummet.",
+    "processing": "WebP-komprimering; beskæring med object-fit i layoutet. Ingen generativ billedbehandling.",
+    "checked": "2026-11-09",
+    "sha256": "663d62eeb95c64e711e3f2f93a2d6228ec2df0eb3b403a4e33ac4fb2fb3c9b0f"
+  }
+]

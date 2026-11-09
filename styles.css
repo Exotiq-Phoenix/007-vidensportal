@@ -412,3 +412,10 @@ select { min-width: 240px; min-height: 48px; padding: 0 2.5rem 0 .9rem; color: v
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+/* Dokumenterede billedkilder i det fælles kildearkiv. */
+.image-credits { padding-block: 3rem; }
+.image-credits h2 { font-size: 2.35rem; }
+.image-credits > p { max-width: 75ch; }
+.image-credits .source-list { width: 100%; }
+.image-rights { margin-top: 1.5rem; color: var(--muted); font-size: .9rem; }
